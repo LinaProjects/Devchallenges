@@ -19,7 +19,6 @@ a {
 body {
     min-height: 100vh;
     max-width: 1280px;
-    margin: 0 auto;
     background: #FAFAF9;
     color: #20293A;
     font-family: 'Sora', sans-serif;
@@ -28,7 +27,6 @@ body {
     background-attachment: fixed;
     background-size: 50px 50px;
     overflow-x: hidden;
-    padding: 4rem;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -39,7 +37,6 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    row-gap: 0.5rem;
     column-gap: 1.5rem;
 }
 
@@ -47,8 +44,8 @@ main {
     background-color: #FFFFFF;
     padding: 16px;
     padding-bottom: 20px;
-    margin-top: 162px;
-    border-radius: 16px;
+    margin-top: 164px;
+    border-radius: 16px 16px 0 0;
     transition: all ease-in-out 50ms;
     cursor: pointer;
     width: min-content;
@@ -87,8 +84,13 @@ main {
     color: #6C727F;
 }
 
+.link-autores {
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+    margin: 0 16px;
+}
+
 .link-autor {
-    margin-top: 20px;
     font-size: 12px;
     color: #6C727F;
     padding-top: 20px;
@@ -101,10 +103,6 @@ main {
 
     .get-started {
         width: auto;
-    }
-
-    main {
-        flex-direction: row;
     }
 
     footer {
