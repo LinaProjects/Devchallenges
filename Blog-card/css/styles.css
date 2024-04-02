@@ -44,7 +44,7 @@ main {
     background-color: #FFFFFF;
     padding: 16px;
     padding-bottom: 20px;
-    margin-top: 164px;
+    margin: 164px auto;
     border-radius: 16px;
     transition: all ease-in-out 50ms;
     cursor: pointer;
